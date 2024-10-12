@@ -1,3 +1,4 @@
+
 /*Calculator Body*/
 .calc-body {
     width: 275px;
@@ -61,5 +62,36 @@
 #screen
 {
     color: white;
+    font-size: 25px;
     word-wrap: break-word;
 }
+
+h1
+{
+    text-align: center;
+}
+
+.dark-mode
+{
+    background-color: black;
+    color: white;
+}
+
+.heading
+{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button
+{
+    background-color: #3A4655;
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+}
+

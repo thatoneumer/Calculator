@@ -8,6 +8,10 @@
     <script src="app.js" defer></script>
   </head>
   <body>
+    <div class="heading">
+    <h1>Calculator</h1>
+    <button onclick="mytoggle()" id="button">black mode</button>
+    </div>
     <div class="calc-body">
       <div class="calc-screen">
         <div id="screen"></div>
@@ -31,7 +35,7 @@
         <button onClick="getValue(3)">3</button>
         <button class="opt" onClick="getValue('+')">&#43;</button>
         <button onClick="getValue(0)">0</button>
-        <button>.</button>
+        <button onClick="getValue('.')">.</button>
         <button onClick="getValue('back')">&#9003;</button>
         <button class="opt" onClick="getValue('=')">&#61;</button>
       </div>

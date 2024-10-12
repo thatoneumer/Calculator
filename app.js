@@ -18,3 +18,16 @@ function getValue(value) {
       screenDiv.innerText += value;
   }
 }
+
+function mytoggle() {
+  var theme = document.body;
+  theme.classList.toggle("dark-mode");
+
+  var bw = document.getElementById("button");
+  if (bw.innerHTML === "black mode") {
+    bw.innerHTML = "white mode";
+
+  } else {
+    bw.innerHTML = "black mode";
+  }
+}
